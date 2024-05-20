@@ -5,7 +5,7 @@ export default function Logo() {
     <>
       <Link href='/'>
         <h1 className="text-4xl text-[#ff5c11] cursor-pointer font-extrabold">
-          IT SOLUTIONS
+          LEEGO
         </h1>
       </Link>
     </>
