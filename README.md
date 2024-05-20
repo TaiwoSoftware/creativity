@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LEEGO Website
 
-## Getting Started
+This product is anther transportation product for fast transportation of goods and movement of people. In the sense that the product main feature is to make transportation easy.
 
-First, run the development server:
+## FEATURES
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. User should be able to transfer goods and products in bulk and to different locations via different means.
+2. Fast movement of people.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## TOOLS USED FOR THIS PROJECT
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. The UI was created using my creativity skill.
+2. The frontend development tools for developments are NEXTJS 14 and Tailwind css
+3. The backend development tools is still in progress.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## DURATION OF THE PROJECT
 
-## Learn More
+1. This project is to last for a month
+2. The UI/UX design and the frontend development will be finishing on the 31st of this month.
+3. The integration of the backend will be figured out as the process is going on.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is a personal project for Taiwo Akerele even as i'm rowing in frontend development on the 20th of May 2024

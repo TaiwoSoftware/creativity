@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'teko';
-  src: url('../components/barlow/Barlow-Regular.ttf');
+  font-family: "teko";
+  src: url("../components/barlow/Barlow-Regular.ttf");
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .main {
-  font-family: 'teko';
+  font-family: "teko";
 }
 
 .background {
-  background-image: url('../components/images-icons/header-img.jpg');
+  background-image: url("../components/images-icons/header-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
