@@ -9,3 +9,9 @@
 .main {
   font-family: 'teko';
 }
+
+.background {
+  background-image: url('../components/images-icons/header-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

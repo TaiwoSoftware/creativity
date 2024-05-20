@@ -1,0 +1,10 @@
+Dominant-background-color: #000c20
+Matching-dominant-color: #ff5c11
+h1-font-size: 8xl;
+h1-font-weight: bold;
+h1-second-color: #f15f22;
+button-background-color: #ff5f13;
+font-color: #fff;
+second-font-color: #2c234d;
+section-background-color: #03235a;
+main-footer-background-color: #121212;
