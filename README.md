@@ -1,6 +1,6 @@
 # LEEGO Website
 
-This product is anther transportation product for fast transportation of goods and movement of people. In the sense that the product main feature is to make transportation easy.
+This product is another transportation product for fast transportation of goods and movement of people. In the sense that the product main feature is to make transportation easy.
 
 ## FEATURES
 
@@ -19,4 +19,4 @@ This product is anther transportation product for fast transportation of goods a
 2. The UI/UX design and the frontend development will be finishing on the 31st of this month.
 3. The integration of the backend will be figured out as the process is going on.
 
-This project is a personal project for Taiwo Akerele even as i'm rowing in frontend development on the 20th of May 2024
+This project is a personal project for Taiwo Akerele even as i'm growing in frontend development on the 20th of May 2024
