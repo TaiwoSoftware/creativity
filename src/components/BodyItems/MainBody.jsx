@@ -1,5 +1,6 @@
 import CircleRings from "./CircleRings";
 import CustomHeaderOne from "./CustomHeaderOne";
+import FirstSection from "./FirstSection";
 
 export default function MainBody() {
   return (
@@ -11,12 +12,13 @@ export default function MainBody() {
             <CustomHeaderOne />
           </div>
           <div>
-            <CircleRings ringsStyles="border border-[#ff5c11] h-36 top-24 right-[12rem] w-36 absolute border-4 rounded-full" />
-            <CircleRings ringsStyles="border border-[#ff5c11] h-36 top-[9rem] right-[6rem] w-36 absolute border-4 rounded-full" />
-            <CircleRings ringsStyles="border border-[#ff5c11] h-36 top-48  right-[12rem]  w-36 absolute border-4 rounded-full   " />
-            <CircleRings ringsStyles="border border-[#ff5c11] h-36 top-36 right-[18rem] w-36 absolute border-4 rounded-full  " />
+            <CircleRings ringsStyles="border animate-bounce border-[#ff5c11] h-36 top-24 right-[12rem] w-36 absolute border-4 rounded-full" />
+            <CircleRings ringsStyles="border animate-bounce border-[#ff5c11] h-36 top-[9rem] right-[6rem] w-36 absolute border-4 rounded-full" />
+            <CircleRings ringsStyles="border animate-bounce border-[#ff5c11] h-36 top-48  right-[12rem]  w-36 absolute border-4 rounded-full   " />
+            <CircleRings ringsStyles="border animate-bounce border-[#ff5c11] h-36 top-36 right-[18rem] w-36 absolute border-4 rounded-full  " />
           </div>
         </div>
+        <FirstSection />
       </div>
     </>
   );

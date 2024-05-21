@@ -1,6 +1,6 @@
 @font-face {
   font-family: "teko";
-  src: url("../components/barlow/Barlow-Regular.ttf");
+  src: url("../components/Teko/static/Teko-Regular.ttf");
 }
 @tailwind base;
 @tailwind components;
