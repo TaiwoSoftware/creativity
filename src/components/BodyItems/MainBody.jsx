@@ -1,6 +1,12 @@
+import AboutLeego from "./AboutLeego";
+import CardDetails from "./CardDetails";
 import CircleRings from "./CircleRings";
 import CustomHeaderOne from "./CustomHeaderOne";
 import FirstSection from "./FirstSection";
+import { GiCargoShip } from "react-icons/gi";
+import { FiTruck } from "react-icons/fi";
+import { BsAirplane } from "react-icons/bs";
+import { LuShip } from "react-icons/lu";
 
 export default function MainBody() {
   return (
@@ -19,6 +25,54 @@ export default function MainBody() {
           </div>
         </div>
         <FirstSection />
+        <div className="grid grid-cols-3 gap-4 p-4">
+          <CardDetails
+            content={
+              <>
+                <FiTruck className="text-6xl mx-auto mb-5 text-[#ff5c11] " />
+                <h2 className="mt-2 text-3xl font-bold text-[#2c234d] mb-3 text-center">
+                  Land Transportaion
+                </h2>
+                <p className="font-sans text-center  text-gray-400 mb-14">
+                  We tend to move the product through by road and ready to
+                  assure you that it is safe. It is our priority to make your
+                  goods save and easier for you transport them.
+                </p>
+              </>
+            }
+          />
+          <CardDetails
+            content={
+              <>
+                <LuShip className="text-6xl mx-auto mb-5 text-[#ff5c11] " />
+                <h2 className="mt-2 text-3xl font-bold text-[#2c234d] mb-3 text-center">
+                  Ship Transport
+                </h2>
+                <p className="font-sans text-center  text-gray-400 mb-14">
+                  We tend to move the product through the water and ready to
+                  assure you that it is safe. It is our priority to make your
+                  goods save and easier for you transport them.
+                </p>
+              </>
+            }
+          />
+          <CardDetails
+            content={
+              <>
+                <BsAirplane className="text-6xl mx-auto mb-5 text-[#ff5c11] " />
+                <h2 className="mt-2 text-3xl font-bold text-[#2c234d] mb-3 text-center">
+                  Ship Transport
+                </h2>
+                <p className="font-sans text-center  text-gray-400 mb-14">
+                  We believe transporting it through the airplanes and ready to
+                  assure you that it is safe. It is our priority to make your
+                  goods save and easier for you transport them.
+                </p>
+              </>
+            }
+          />
+        </div>
+        <AboutLeego />
       </div>
     </>
   );

@@ -1,11 +1,7 @@
-import { GiCargoShip } from "react-icons/gi";
-import { FiTruck } from "react-icons/fi";
-import { BsAirplane } from "react-icons/bs";
-import { LuShip } from "react-icons/lu";
-export default function CardDetails() {
+export default function CardDetails({content}) {
   return (
-    <div>
-
+    <div className="border  p-4 rounded-lg mt-28">
+      {content}
     </div>
   )
 };

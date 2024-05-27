@@ -4,10 +4,3 @@ export default function CircleRings({ringsStyles}) {
   )
 }
 
-// export default function CircleRings({ringsStyles}) {
-//   return (
-//     <div className={ringsStyles}>
-    
-//     </div>
-//   )
-// }
