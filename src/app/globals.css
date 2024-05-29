@@ -21,3 +21,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.testimonial {
+  background-image:url('../components/images-icons/background-testimonial.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

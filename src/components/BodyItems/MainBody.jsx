@@ -8,6 +8,7 @@ import { BsAirplane } from "react-icons/bs";
 import { LuShip } from "react-icons/lu";
 import StartTheProcess from "./StartTheProcess";
 import TeamMembers from "./TeamMembers";
+import Testimonials from "./Testimonials";
 
 export default function MainBody() {
   return (
@@ -75,9 +76,10 @@ export default function MainBody() {
         </div>
         <AboutLeego />
         <StartTheProcess />
-        <div>
+        <div className="mt-10">
           <TeamMembers />
         </div>
+        <Testimonials />
       </div>
     </>
   );
