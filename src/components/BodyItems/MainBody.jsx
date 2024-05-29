@@ -3,10 +3,11 @@ import CardDetails from "./CardDetails";
 import CircleRings from "./CircleRings";
 import CustomHeaderOne from "./CustomHeaderOne";
 import FirstSection from "./FirstSection";
-import { GiCargoShip } from "react-icons/gi";
 import { FiTruck } from "react-icons/fi";
 import { BsAirplane } from "react-icons/bs";
 import { LuShip } from "react-icons/lu";
+import StartTheProcess from "./StartTheProcess";
+import TeamMembers from "./TeamMembers";
 
 export default function MainBody() {
   return (
@@ -61,7 +62,7 @@ export default function MainBody() {
               <>
                 <BsAirplane className="text-6xl mx-auto mb-5 text-[#ff5c11] " />
                 <h2 className="mt-2 text-3xl font-bold text-[#2c234d] mb-3 text-center">
-                  Ship Transport
+                  Air Transport
                 </h2>
                 <p className="font-sans text-center  text-gray-400 mb-14">
                   We believe transporting it through the airplanes and ready to
@@ -73,6 +74,10 @@ export default function MainBody() {
           />
         </div>
         <AboutLeego />
+        <StartTheProcess />
+        <div>
+          <TeamMembers />
+        </div>
       </div>
     </>
   );

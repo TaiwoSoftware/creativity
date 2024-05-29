@@ -15,3 +15,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.started {
+  background-image: url('../components/images-icons/train.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
