@@ -21,10 +21,11 @@ export default function RootLayout({ children }) {
           </header>
           {children}
         </main>
-      </body>
-      <footer className="bg-black ">
+        <footer className="bg-black ">
       <Footer />
       </footer>
+      </body>
+     
     </html>
   );
 }
