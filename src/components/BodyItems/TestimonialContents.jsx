@@ -1,25 +1,51 @@
-import Image from "next/image";
-import customerOne from "../images-icons/customerOne.webp";
-import customerTwo from "../images-icons/customerTwo.webp";
+
+// import customerOne from "../images-icons/customerOne.webp";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
+import customerThree from "../images-icons/head.png";
+import ClientDetails from "./ClientDetails";
+// import customerTwo from "../images-icons/customerTwo.webp";
 export default function TestimonialContents() {
   return (
-    <div className="flex">
-      <div className="mt-10">
+    <div className="flex justify-between">
+      <div className="mt-10 ml-10">
         <p className="text-2xl uppercase text-[#ff5c11]">Clients Testimonial</p>
         <h2 className="text-4xl font-bold text-white">
           What Our Clients Says!!
         </h2>
-        <p className="text-white font-sans">
-          This web-app has made my life easier because i&rsquo;m a transporter
-          and me been able to transfer goods without leaving my house has made
-          me happy and all i just have to do is just to open my laptop and login
-          to leego website.
-        </p>
-        <Image className="rounded-full" src={customerOne} alt="customer One" />
-        <Image className="rounded-full" src={customerTwo} alt="CustomerTwo" />
+        <ClientDetails 
+          testimony={<>
+            <p>This web-app has made my life easier because i&rsquo;m a transporter</p>
+            <p>and me been able to transfer goods without leaving my house has made</p>
+            <p> me happy and all i just have to do is just to open my laptop and</p>
+            <p>login to leego website</p>
+          </>}
+          imgSrc={customerThree}
+          clientName={'Joshua David'}
+          clientExpertise={'Transporter'}
+        />
+        <div className="ml-[28rem] mt-[-5rem]">
+        <button className="border p-4 rounded-l-md border-[#c3c3c3]">
+          <BsArrowLeft className="text-[#9e9e9e] " />
+        </button>
+        <button className="border p-4 ml-4 rounded-r-md border-[#9e9e9e]">
+          <BsArrowRight className="text-[#9e9e9e]" />
+        </button>
       </div>
-      <div>
-        <h2>Always Listening, Always Understanding   </h2>
+      </div>
+      <div className="bg-white w-[20rem] mb-[4rem] p-10 mr-10 rounded-lg h-[20rem] mt-20">
+        <h2 className="text-center font-bold text-[#0a285d] text-3xl">
+          Always Listening, Always Understanding{" "}
+        </h2>
+        <input
+          type="text"
+          className="font-sans rounded-md w-full text-gray-500 border outline-none mt-10 p-3"
+          readOnly
+          value="Incoterms"
+        />
+        <button className="bg-[#ff5c11] text-white mt-5 w-full p-3 font-sans rounded-md">
+          Request for a demo
+        </button>
       </div>
     </div>
   );
