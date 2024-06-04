@@ -35,7 +35,7 @@ export default function MainBody() {
                 <h2 className="mt-2 text-3xl font-bold text-[#2c234d] mb-3 text-center">
                   Land Transportaion
                 </h2>
-                <p className="font-sans text-center  text-gray-400 mb-14">
+                <p className="font-sans text-center   text-gray-400 mb-14">
                   We tend to move the product through by road and ready to
                   assure you that it is safe. It is our priority to make your
                   goods save and easier for you transport them.

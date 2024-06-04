@@ -2,6 +2,15 @@
   font-family: "teko";
   src: url("../components/Teko/static/Teko-Regular.ttf");
 }
+
+@keyframes fromTop {
+  0% {
+    transform: translateX(100deg)
+  }
+  100%{
+    transform: translateX(0)
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,4 +44,15 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.handleHoverState:hover {
+  transition: 2s;
+  cursor: pointer;
+  color: white;
+  background-color: #ff5c11;
+}
+
+.content{
+  color: white;
 }

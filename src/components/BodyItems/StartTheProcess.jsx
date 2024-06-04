@@ -30,7 +30,7 @@ export default function StartTheProcess() {
     <div className="p-4 mt-10 relative started">
       <div className="bg-[#000c20b0] absolute inset-0"></div>
       <div className=" mb-20 p-4 z-10 relative">
-        <div className="bg-[#e9e9e9] mt-10 rounded-md py-4 px-10 w-1/2 ml-auto">
+        <div className="bg-[#e9e9e9] mt-10 rounded-md py-4 shadow-md px-10 w-1/2 ml-auto">
           <p className="text-2xl text-center uppercase text-[#ff5c11]">
             Transport your product
           </p>
@@ -40,6 +40,7 @@ export default function StartTheProcess() {
           <p className="text-left mb-10 text-gray-500 font-sans">
             Leego keeps your details in a well-structured way safe enough to
             keep you going through out this website.
+            This is just a demo to get started click on the get started button
           </p>
           <form>
             <div className="grid grid-cols-2 gap-8 ">
@@ -82,7 +83,7 @@ export default function StartTheProcess() {
               handleChange={handleSerialChange}
               placeholder="Serial Number"
             />
-            <button type="submit" className="font-semibold bg-[#ff5c11] w-full text-white px-4 py-4 rounded-lg font-sans">Make a transfer</button>
+            <button type="submit" className="font-semibold mb-[2rem] bg-[#ff5c11] transition-all w-full hover:border border-[#ff5c11] hover:bg-white hover:text-[#ff5c11] text-white px-4 py-4 rounded-lg font-sans">Make a transfer</button>
           </form>
         </div>
       </div>

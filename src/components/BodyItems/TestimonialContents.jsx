@@ -1,11 +1,18 @@
-
-// import customerOne from "../images-icons/customerOne.webp";
+"use client";
 import { BsArrowLeft } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import customerThree from "../images-icons/head.png";
 import ClientDetails from "./ClientDetails";
-// import customerTwo from "../images-icons/customerTwo.webp";
+import { useState } from "react";
+import customerTwo from "../images-icons/customerTwo.webp";
 export default function TestimonialContents() {
+  const [isClickedForward, setIsClickedForward] = useState("false");
+  const handleBackwardClick = () => { 
+    setIsClickedForward(false)
+  }
+  const handleClickedForward = () => {
+    setIsClickedForward(!isClickedForward);
+  };
   return (
     <div className="flex justify-between">
       <div className="mt-10 ml-10">
@@ -13,25 +20,67 @@ export default function TestimonialContents() {
         <h2 className="text-4xl font-bold text-white">
           What Our Clients Says!!
         </h2>
-        <ClientDetails 
-          testimony={<>
-            <p>This web-app has made my life easier because i&rsquo;m a transporter</p>
-            <p>and me been able to transfer goods without leaving my house has made</p>
-            <p> me happy and all i just have to do is just to open my laptop and</p>
-            <p>login to leego website</p>
-          </>}
-          imgSrc={customerThree}
-          clientName={'Joshua David'}
-          clientExpertise={'Transporter'}
-        />
+        {isClickedForward === true ? (
+          <>
+            <ClientDetails
+              testimony={
+                <>
+                  <p>
+                    This web-app has made my life easier because i wanted to transfer a surprise
+                  </p>
+                  <p>
+                    package to one of best friend because it was her birthday and i was not at home
+                  </p>
+                  <p>
+                    {" "}
+                    to use transfer the product, i told my friend about it and she introduced me to leego
+                  </p>
+                  <p>all i did was to just login to leego website and transfer my goods</p>
+                </>
+              }
+              imgSrc={customerTwo}
+              clientName={"Elizabeth Jacobs"}
+              clientExpertise={"HR"}
+            />
+          </>
+        ) : (
+          <>
+            <ClientDetails
+              testimony={
+                <>
+                  <p>
+                    This web-app has made my life easier because i&rsquo;m a
+                    transporter
+                  </p>
+                  <p>
+                    and me been able to transfer goods without leaving my house
+                    has made
+                  </p>
+                  <p>
+                    {" "}
+                    me happy and all i just have to do is just to open my laptop
+                    and
+                  </p>
+                  <p>login to leego website</p>
+                </>
+              }
+              imgSrc={customerThree}
+              clientName={"Joshua David"}
+              clientExpertise={"Transporter"}
+            />
+          </>
+        )}
         <div className="ml-[28rem] mt-[-5rem]">
-        <button className="border p-4 rounded-l-md border-[#c3c3c3]">
-          <BsArrowLeft className="text-[#9e9e9e] " />
-        </button>
-        <button className="border p-4 ml-4 rounded-r-md border-[#9e9e9e]">
-          <BsArrowRight className="text-[#9e9e9e]" />
-        </button>
-      </div>
+          <button className="border p-4 rounded-l-md border-[#c3c3c3]" onClick={handleBackwardClick}>
+            <BsArrowLeft className="text-[#9e9e9e] " />
+          </button>
+          <button
+            className="border p-4 ml-4 rounded-r-md border-[#9e9e9e]"
+            onClick={handleClickedForward}
+          >
+            <BsArrowRight className="text-[#9e9e9e]" />
+          </button>
+        </div>
       </div>
       <div className="bg-white w-[20rem] mb-[4rem] p-10 mr-10 rounded-lg h-[20rem] mt-20">
         <h2 className="text-center font-bold text-[#0a285d] text-3xl">
