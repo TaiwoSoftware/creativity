@@ -9,7 +9,6 @@ import { LuShip } from "react-icons/lu";
 import StartTheProcess from "./StartTheProcess";
 import TeamMembers from "./TeamMembers";
 import Testimonials from "./Testimonials";
-
 export default function MainBody() {
   return (
     <>

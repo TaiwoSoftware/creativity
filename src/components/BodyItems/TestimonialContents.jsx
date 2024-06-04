@@ -6,12 +6,14 @@ import ClientDetails from "./ClientDetails";
 import { useState } from "react";
 import customerTwo from "../images-icons/customerTwo.webp";
 export default function TestimonialContents() {
+  const [lastTestimonial, setLastTestimonial] = useState('false');
   const [isClickedForward, setIsClickedForward] = useState("false");
   const handleBackwardClick = () => { 
     setIsClickedForward(false)
   }
   const handleClickedForward = () => {
     setIsClickedForward(!isClickedForward);
+    setLastTestimonial(!lastTestimonial);
   };
   return (
     <div className="flex justify-between">
